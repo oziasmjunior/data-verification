@@ -1,0 +1,24 @@
+{
+  "name": "data-verification",
+  "version": "1.0.0",
+  "description": "User-entered data validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oziasmjunior/data-verification.git"
+  },
+  "keywords": [
+    "data",
+    "validator",
+    "verification"
+  ],
+  "author": "Ozias Junior <oziasjunior@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oziasmjunior/data-verification/issues"
+  },
+  "homepage": "https://github.com/oziasmjunior/data-verification#readme"
+}
