@@ -1,5 +1,8 @@
-function DocumentBrazil(documentNumber) {
-    if (!/^[0-9]+$/.test(number))
+function CPF(documentNumber) {
+    if (typeof documentNumber !== "string")
+        return { isValid: false, value: documentNumber, name: "DocumentException", message: "To correctly validate the value must be informed in string format." }
+
+    if (!/^[0-9]+$/.test(documentNumber))
         return { isValid: false, value: documentNumber, name: "DocumentException", message: "The value entered must contain only numbers." }
 
     if (documentNumber.length !== 11)
@@ -26,4 +29,4 @@ function DocumentBrazil(documentNumber) {
     }
 }
 
-export default DocumentBrazil
+module.exports = CPF
